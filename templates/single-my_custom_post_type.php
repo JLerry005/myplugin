@@ -19,7 +19,7 @@
                 <div> <?php the_post_thumbnail('thumbnail'); ?> </div>
             <?php endif; ?>
             <small><?php 
-                $terms_list = wp_get_post_terms($post->ID, 'type'); 
+                $terms_list = wp_get_post_terms($post->ID, 'category'); 
 
                 $i = 0;
                 foreach( $terms_list as $term) { $i++;
@@ -28,7 +28,7 @@
                 }
             ?> || 
             <?php 
-                $terms_list = wp_get_post_terms($post->ID, 'keyword'); 
+                $terms_list = wp_get_post_terms($post->ID, 'tag'); 
 
                 $i = 0;
                 foreach( $terms_list as $term) { $i++;
