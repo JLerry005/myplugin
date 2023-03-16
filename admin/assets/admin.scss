@@ -1,0 +1,38 @@
+.mp-cards {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 210px;
+    width: 95%;
+    padding: 20px;
+    .mp-cards-btn {
+        border-width: 0px;
+        cursor: pointer;
+        width: 101px;
+        height: 38px;
+        background: #0a4b78;
+        border-radius: 1000px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF
+    }
+}
+#mp-dashboard {
+    .mp-column-3 {
+        width: 33.33%;
+    }
+    .chart-containers{
+        display: flex;
+        .mp-column-2 {
+            width: 50%;
+        }
+    }
+    .mp-flex {
+        display: flex;
+    }
+
+}
